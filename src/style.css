@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,200;0,500;1,200&family=Mountains+of+Christmas:wght@700&family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Amatic SC', cursive; */
+    /* background-color: #000; */
+    /* color: #000; */
+}
+body{
+    background-color: #000 !important;
+}
+#welcome{
+    /* background-color: #000; */
+}
+#details{
+    /* background-color: #000; */
+    background-color: #000;
+}
+#privateGallery{
+    /* background-color: #000; */
+    background-color: #000;
+    color:#fff;
+}
+#dailyExhibition{
+    /* background-color: #000; */
+    cursor: none;
+}
+#signIn{
+    background-color: #000;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+#signUp{
+    background-color: #000;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+#aboutUS{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#welcome section {
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: none;
+}
+
+#welcome section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+.textblack {
+    position: relative;
+    color: #000;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(12, 11, 11)
+}
+
+.textwhite {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    z-index: 1;
+    background-color: transparent;
+    border-top: 1px solid rgb(255, 255, 255)
+}
+
+.neverland {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    z-index: 1;
+    cursor: pointer;
+    /* background-color: black; */
+    /* border-bottom: 1px solid rgb(255, 255, 255) */
+    white-space: nowrap;
+    animation: fadeIn 5s;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.artwork_display{
+    background-color: #000;
+     text-align: center;
+}
+#detailsView1_div1{
+    flex:1; display:flex;  margin:0 auto; flex-direction: column; width:50%;
+}
+#detailsView1_div2{
+    display:flex;flex-direction:row; flex:1; text-Align:left ;
+}
+#detailsView1_div2-1{
+    max-height:100%;
+    max-width: 25vw;
+}
+#detailsView1_div3{
+    flex:0.5; color:#fff; margin-left:4vh; margin-top:15vh;
+}
+#detailsView1_div4{
+    font-weight:400; text-transform: uppercase;font-size:3vh
+}
+#detailsView1_div5{
+    font-weight:200;font-size:2vh;
+}
+#detailsView1_div6{
+    text-Align:left; margin-top:5vh;color:#fff ;;
+}
+#detailsView1_div7{
+    font-weight:500;font-size:4vh;
+}
+#detailsView1_div8{
+    font-weight:100;font-size:2.5vh;
+}
+#detailsView1_div8-1{
+    font-size:2vh;
+    font-weight: bold;
+}
+#description{
+    font-size:2vh;margin-top:1vh;text-align:justify;
+}
+
+#privateStyle1{
+    text-align:center; margin: 50px; text-transform: uppercase; font-size: xx-large;font-weight: 100;display: grid;
+   
+}
+#privateStyle2{
+font-size: medium; margin-top: 20px;
+}
+
+#privateStyle3{
+margin-top: 5px;
+}
+
+#privateGallery {
+    margin: 10px;
+}
+
+.displaySpan {
+    text-align: center;
+    inline-size: auto;
+    display: inline-block;
+    margin-top: 5px;
+    width: 200px;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 100;
+    /* overflow: hidden; */
+}
+.displaySpan img{
+    max-height: 200px;
+    max-width: 200px;
+}
+#backbutton{
+    float:left;
+    position: absolute;
+    font-size:17px;
+    cursor: pointer;
+}
+
+#myEmail{
+    color:#fff;
+    background: #474747;
+}
+
+#myPassword{
+    color:#fff;
+    background: #474747;
+}
+
+#email{
+    color:#fff;
+    background: #474747;
+}
+
+#password{
+    color:#fff;
+    background: #474747;
+}
+
+#aboutUsButton{
+    float:right;
+    /* position: absolute; */
+    font-size:17px;
+    color:#fff;
+    cursor: pointer;
+}
+#aboutUsStyle{
+    font-size: medium; 
+    margin-top: 20px;
+    text-align:justify;
+    text-transform: capitalize;
+}
+#aboutUs_backbutton{
+    float:left;
+    position: absolute;
+    font-size:17px;
+    cursor: pointer;
+}

@@ -1,7 +1,10 @@
 ## NEVERLAND 
  link https://neverland-art.web.app/
  Project documentations (Group 6)
- Shujian Guan 970909-T277;Lin Liu 950915 -7427; Xitao Mo 970919 -4691; Yijing Liu 980510-4065
+ Shujian Guan frontend developer;
+ Lin Liu user experience designer; 
+ Xitao Mo backend developer; 
+ Yijing Liu backend developer.
 
 ## NEVERLAND introduction
  NEVERLAND is an online interactive gallery for exploring the collections of the Art Institute of Chicago. 
